@@ -1,0 +1,158 @@
+html{
+font-family: Arial, Helvetica, sans-serif;
+background-image: url(https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1600);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+h2{
+
+font-size: 25px;
+}
+
+#botao {
+ position: fixed;
+   right: 20px;
+ top: 20px;
+  background-color: transparent;
+   color: whitesmoke;
+   border-radius: 2px;
+   border-width: 0px;
+}  
+
+#outro{
+  position: fixed;
+  right: 65px;
+    top: 30px;
+  background-color: transparent;
+    color: whitesmoke;
+    
+        border-radius: 5px;
+        border-width: 0px;
+}
+
+#contato{
+    position: fixed;
+    right: 130px;
+      top: 30px;
+    background-color: transparent;
+      color: whitesmoke;
+          border-radius: 5px;
+          border-width: 0px;
+}
+
+
+#pag{
+    position: fixed;
+    right: 200px;
+      top: 30px;
+    background-color: transparent;
+      color: whitesmoke;
+          border-radius: 5px;
+          margin-bottom: 0%;
+          border-width: 0px;
+}
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .header2 {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+  .menu {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+
+  
+  .main-content {
+    height: 900px; 
+    overflow-y: auto; 
+    flex: 1;
+      min-width: 300px; /* Define uma largura mínima para os elementos */
+      padding: 20px;
+      margin: 10px;
+      border: 1px solid #ccc;
+  }
+
+  
+  .products {
+   
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .product img {
+    max-width: 80%;
+    height: auto;
+  }
+
+
+  .container {
+    max-width: 640px; /* Define a largura máxima do container */
+    right: 20px; /* Centraliza o container na página */
+    padding: 20px; /* Espaçamento interno para o conteúdo dentro do container */
+    border: 1px solid #ccc; /* Borda do container */
+    background-color: #f2f2f2; /* Cor de fundo do container */
+
+    position: fixed;
+
+
+  }
+
+
+  #teste{
+    padding: 9px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(to bottom, #007bff, #0056b3);
+  }
+
+
+
+p, h3{
+color:#ccc;
+}
+
+
+#menu{
+border-radius: 5px;
+color:#000;
+}
+
+
